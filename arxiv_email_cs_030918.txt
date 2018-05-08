@@ -1,0 +1,1728 @@
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+Send any comments regarding submissions directly to submitter.
+------------------------------------------------------------------------------
+Archives at http://arxiv.org/
+To unsubscribe, e-mail To: cs@arXiv.org, Subject: cancel
+------------------------------------------------------------------------------
+ Submissions to:
+Artificial Intelligence
+Computational Engineering, Finance, and Science
+Computation and Language
+Computer Vision and Pattern Recognition
+Computers and Society
+Computer Science and Game Theory
+Learning
+ received from  Wed  7 Mar 18 19:00:00 GMT  to  Thu  8 Mar 18 19:00:00 GMT
+------------------------------------------------------------------------------
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02906
+Date: Wed, 7 Mar 2018 22:47:52 GMT   (1207kb,D)
+
+Title: Simultaneous Task Allocation and Planning Under Uncertainty
+Authors: Fatma Faruq, Bruno Lacerda, Nick Hawes and David Parker
+Categories: cs.AI cs.RO
+\\
+  We propose novel techniques for task allocation and planning in multi-robot
+systems operating in uncertain environments. Task allocation is performed
+simultaneously with planning, which provides more detailed information about
+individual robot behaviour, but also exploits the independence between tasks to
+do so efficiently. We use Markov decision processes to model robot behaviour
+and linear temporal logic to specify tasks and safety constraints. Building
+upon techniques and tools from formal verification, we show how to generate a
+sequence of multi-robot policies, iteratively refining them to reallocate tasks
+if individual robots fail, and providing probabilistic guarantees on the
+performance (and safe operation) of the team of robots under the resulting
+policy. We implement our approach and evaluate it on a benchmark multi-robot
+example.
+\\ ( https://arxiv.org/abs/1803.02906 ,  1207kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02912
+Date: Wed, 7 Mar 2018 23:26:49 GMT   (300kb,D)
+
+Title: A Brandom-ian view of Reinforcement Learning towards strong-AI
+Authors: Atrisha Sarkar
+Categories: cs.AI
+\\
+  The analytic philosophy of Robert Brandom, based on the ideas of pragmatism,
+paints a picture of sapience, through inferentialism. In this paper, we present
+a theory, that utilizes essential elements of Brandom's philosophy, towards the
+objective of achieving strong-AI. We do this by connecting the constitutive
+elements of reinforcement learning and the Game Of Giving and Asking For
+Reasons. Further, following Brandom's prescriptive thoughts, we restructure the
+popular reinforcement learning algorithm A3C, and show that RL algorithms can
+be tuned towards the objective of strong-AI.
+\\ ( https://arxiv.org/abs/1803.02912 ,  300kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03021
+Date: Thu, 8 Mar 2018 10:02:42 GMT   (310kb)
+
+Title: SA-IGA: A Multiagent Reinforcement Learning Method Towards Socially
+  Optimal Outcomes
+Authors: Chengwei Zhang and Xiaohong Li and Jianye Hao and Siqi Chen and Karl
+  Tuyls and Wanli Xue
+Categories: cs.AI
+\\
+  In multiagent environments, the capability of learning is important for an
+agent to behave appropriately in face of unknown opponents and dynamic
+environment. From the system designer's perspective, it is desirable if the
+agents can learn to coordinate towards socially optimal outcomes, while also
+avoiding being exploited by selfish opponents. To this end, we propose a novel
+gradient ascent based algorithm (SA-IGA) which augments the basic
+gradient-ascent algorithm by incorporating social awareness into the policy
+update process. We theoretically analyze the learning dynamics of SA-IGA using
+dynamical system theory and SA-IGA is shown to have linear dynamics for a wide
+range of games including symmetric games. The learning dynamics of two
+representative games (the prisoner's dilemma game and the coordination game)
+are analyzed in details. Based on the idea of SA-IGA, we further propose a
+practical multiagent learning algorithm, called SA-PGA, based on Q-learning
+update rule. Simulation results show that SA-PGA agent can achieve higher
+social welfare than previous social-optimality oriented Conditional Joint
+Action Learner (CJAL) and also is robust against individually rational
+opponents by reaching Nash equilibrium solutions.
+\\ ( https://arxiv.org/abs/1803.03021 ,  310kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03067
+Date: Thu, 8 Mar 2018 12:37:14 GMT   (6527kb,D)
+
+Title: Compositional Attention Networks for Machine Reasoning
+Authors: Drew A. Hudson and Christopher D. Manning
+Categories: cs.AI
+Comments: Published as a conference paper at ICLR 2018
+\\
+  We present the MAC network, a novel fully differentiable neural network
+architecture, designed to facilitate explicit and expressive reasoning. Drawing
+inspiration from first principles of computer organization, MAC moves away from
+monolithic black-box neural architectures towards a design that encourages both
+transparency and versatility. The model approaches problems by decomposing them
+into a series of attention-based reasoning steps, each performed by a novel
+recurrent Memory, Attention, and Composition (MAC) cell that maintains a
+separation between control and memory. By stringing the cells together and
+imposing structural constraints that regulate their interaction, MAC
+effectively learns to perform iterative reasoning processes that are directly
+inferred from the data in an end-to-end approach. We demonstrate the model's
+strength, robustness and interpretability on the challenging CLEVR dataset for
+visual reasoning, achieving a new state-of-the-art 98.9% accuracy, halving the
+error rate of the previous best model. More importantly, we show that the model
+is computationally-efficient and data-efficient, in particular requiring 5x
+less data than existing models to achieve strong results.
+\\ ( https://arxiv.org/abs/1803.03067 ,  6527kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03114
+Date: Thu, 8 Mar 2018 14:44:56 GMT   (83kb,D)
+
+Title: Concise Fuzzy Representation of Big Graphs: a Dimensionality Reduction
+  Approach
+Authors: Faisal N. Abu-Khzam and Rana H. Mouawi
+Categories: cs.AI
+\\
+  The enormous amount of data to be represented using large graphs exceeds in
+some cases the resources of a conventional computer. Edges in particular can
+take up a considerable amount of memory as compared to the number of nodes.
+However, rigorous edge storage might not always be essential to be able to draw
+the needed conclusions. A similar problem takes records with many variables and
+attempts to extract the most discernible features. It is said that the
+"dimension" of this data is reduced. Following an approach with the same
+objective in mind, we can map a graph representation to a k-dimensional space
+and answer queries of neighboring nodes by measuring Euclidean distances. The
+accuracy of our answers would decrease but would be compensated for by fuzzy
+logic which gives an idea about the likelihood of error. This method allows for
+reasonable representation in memory while maintaining a fair amount of useful
+information. Promising preliminary results are obtained and reported by testing
+the proposed approach on a number of Facebook graphs.
+\\ ( https://arxiv.org/abs/1803.03114 ,  83kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02977
+Date: Thu, 8 Mar 2018 05:58:54 GMT   (387kb,D)
+
+Title: Accelerating a fluvial incision and landscape evolution model with
+  parallelism
+Authors: Richard Barnes
+Categories: cs.CE cs.DS
+Comments: 13 pages, 12 figures, 2 tables
+\\
+  Solving inverse problems and achieving statistical rigour in landscape
+evolution models requires running many model realizations. Parallel computation
+is necessary to achieve this in a reasonable time. However, no previous
+algorithm is well-suited to leveraging modern parallelism. Here, I describe an
+algorithm that can utilize the parallel potential of GPUs, many-core
+processors, and SIMD instructions, in addition to working well in serial. The
+new algorithm runs 43x faster (70s vs. 3,000s on a 10,000x10,000 input) than
+the previous state of the art and exhibits sublinear scaling with input size. I
+also identify methods for using multidirectional flow routing and quickly
+eliminating landscape depressions and local minima. Tips for parallelization
+and a step-by-step guide to achieving it are given to help others achieve good
+performance with their own code. Complete, well-commented, easily adaptable
+source code for all versions of the algorithm is available as a supplement and
+on Github.
+\\ ( https://arxiv.org/abs/1803.02977 ,  387kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02839
+Date: Wed, 7 Mar 2018 19:06:08 GMT   (1247kb,D)
+
+Title: The emergent algebraic structure of RNNs and embeddings in NLP
+Authors: Sean A. Cantrell
+Categories: cs.CL cs.AI stat.ML
+Comments: 24 pages, 16 figures
+MSC-class: 97R40
+\\
+  We examine the algebraic and geometric properties of a uni-directional GRU
+and word embeddings trained end-to-end on a text classification task. A
+hyperparameter search over word embedding dimension, GRU hidden dimension, and
+a linear combination of the GRU outputs is performed. We conclude that words
+naturally embed themselves in a Lie group and that RNNs form a nonlinear
+representation of the group. Appealing to these results, we propose a novel
+class of recurrent-like neural networks and a word embedding scheme.
+\\ ( https://arxiv.org/abs/1803.02839 ,  1247kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02893
+Date: Wed, 7 Mar 2018 22:02:10 GMT   (72kb)
+
+Title: An efficient framework for learning sentence representations
+Authors: Lajanugen Logeswaran, Honglak Lee
+Categories: cs.CL cs.AI cs.LG
+Comments: ICLR 2018
+\\
+  In this work we propose a simple and efficient framework for learning
+sentence representations from unlabelled data. Drawing inspiration from the
+distributional hypothesis and recent work on learning sentence representations,
+we reformulate the problem of predicting the context in which a sentence
+appears as a classification problem. Given a sentence and its context, a
+classifier distinguishes context sentences from other contrastive sentences
+based on their vector representations. This allows us to efficiently learn
+different types of encoding functions, and we show that the model learns
+high-quality sentence representations. We demonstrate that our sentence
+representations outperform state-of-the-art unsupervised and supervised
+representation learning methods on several downstream NLP tasks that involve
+understanding sentence semantics while achieving an order of magnitude speedup
+in training time.
+\\ ( https://arxiv.org/abs/1803.02893 ,  72kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02914
+Date: Wed, 7 Mar 2018 23:29:31 GMT   (175kb,D)
+
+Title: Translating Questions into Answers using DBPedia n-triples
+Authors: Mihael Arcan
+Categories: cs.CL
+\\
+  In this paper we present a question answering system using a neural network
+to interpret questions learned from the DBpedia repository. We train a
+sequence-to-sequence neural network model with n-triples extracted from the
+DBpedia Infobox Properties. Since these properties do not represent the natural
+language, we further used question-answer dialogues from movie subtitles.
+Although the automatic evaluation shows a low overlap of the generated answers
+compared to the gold standard set, a manual inspection of the showed promising
+outcomes from the experiment for further work.
+\\ ( https://arxiv.org/abs/1803.02914 ,  175kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02994
+Date: Thu, 8 Mar 2018 08:07:31 GMT   (3342kb,D)
+
+Title: How Images Inspire Poems: Generating Classical Chinese Poetry from
+  Images with Memory Networks
+Authors: Linli Xu, Liang Jiang, Chuan Qin, Zhe Wang, Dongfang Du
+Categories: cs.CL
+Comments: Accepted by AAAI 2018
+\\
+  With the recent advances of neural models and natural language processing,
+automatic generation of classical Chinese poetry has drawn significant
+attention due to its artistic and cultural value. Previous works mainly focus
+on generating poetry given keywords or other text information, while visual
+inspirations for poetry have been rarely explored. Generating poetry from
+images is much more challenging than generating poetry from text, since images
+contain very rich visual information which cannot be described completely using
+several keywords, and a good poem should convey the image accurately. In this
+paper, we propose a memory based neural model which exploits images to generate
+poems. Specifically, an Encoder-Decoder model with a topic memory network is
+proposed to generate classical Chinese poetry from images. To the best of our
+knowledge, this is the first work attempting to generate classical Chinese
+poetry from images with neural networks. A comprehensive experimental
+investigation with both human evaluation and quantitative analysis demonstrates
+that the proposed model can generate poems which convey images accurately.
+\\ ( https://arxiv.org/abs/1803.02994 ,  3342kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03178
+Date: Thu, 8 Mar 2018 16:06:54 GMT   (29kb)
+
+Title: Fact Checking in Community Forums
+Authors: Tsvetomila Mihaylova, Preslav Nakov, Lluis Marquez, Alberto
+  Barron-Cedeno, Mitra Mohtarami, Georgi Karadzhov, James Glass
+Categories: cs.CL
+Comments: AAAI-2018; Fact-Checking; Veracity; Community-Question Answering;
+  Neural Networks; Distributed Representations
+MSC-class: 68T50
+ACM-class: I.2.7
+\\
+  Community Question Answering (cQA) forums are very popular nowadays, as they
+represent effective means for communities around particular topics to share
+information. Unfortunately, this information is not always factual. Thus, here
+we explore a new dimension in the context of cQA, which has been ignored so
+far: checking the veracity of answers to particular questions in cQA forums. As
+this is a new problem, we create a specialized dataset for it. We further
+propose a novel multi-faceted model, which captures information from the answer
+content (what is said and how), from the author profile (who says it), from the
+rest of the community forum (where it is said), and from external authoritative
+sources of information (external support). Evaluation results show a MAP value
+of 86.54, which is 21 points absolute above the baseline.
+\\ ( https://arxiv.org/abs/1803.03178 ,  29kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03232
+Date: Thu, 8 Mar 2018 18:05:18 GMT   (638kb,D)
+
+Title: Feudal Reinforcement Learning for Dialogue Management in Large Domains
+Authors: I\~nigo Casanueva, Pawe{\l} Budzianowski, Pei-Hao Su, Stefan Ultes,
+  Lina Rojas-Barahona, Bo-Hsiang Tseng and Milica Ga\v{s}i\'c
+Categories: cs.CL cs.AI cs.NE
+Comments: Accepted as a short paper in NAACL 2018
+\\
+  Reinforcement learning (RL) is a promising approach to solve dialogue policy
+optimisation. Traditional RL algorithms, however, fail to scale to large
+domains due to the curse of dimensionality. We propose a novel Dialogue
+Management architecture, based on Feudal RL, which decomposes the decision into
+two steps; a first step where a master policy selects a subset of primitive
+actions, and a second step where a primitive action is chosen from the selected
+subset. The structural information included in the domain ontology is used to
+abstract the dialogue state space, taking the decisions at each step using
+different parts of the abstracted state. This, combined with an information
+sharing mechanism between slots, increases the scalability to large domains. We
+show that an implementation of this approach, based on Deep-Q Networks,
+significantly outperforms previous state of the art in several dialogue domains
+and environments, without the need of any additional reward signal.
+\\ ( https://arxiv.org/abs/1803.03232 ,  638kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02983
+Date: Thu, 8 Mar 2018 06:51:45 GMT   (1167kb)
+
+Title: A framework with updateable joint images re-ranking for Person
+  Re-identification
+Authors: Mingyue Yuan, Dong Yin, Jingwen Ding, Yuhao Luo, Zhipeng Zhou,
+  Chengfeng Zhu, Rui Zhang
+Categories: cs.CV
+Comments: 23 pages,5 figures. submitted to JVCI
+\\
+  Person re-identification plays an important role in realistic video
+surveillance with increasing demand for public safety. In this paper, we
+propose a novel framework with rules of updating images for person
+re-identification in real-world surveillance system. First, Image Pool is
+generated by using mean-shift tracking method to automatically select video
+frame fragments of the target person. Second, features extracted from Image
+Pool by convolutional network work together to re-rank original ranking list of
+the main image and matching results will be generated. In addition, updating
+rules are designed for replacing images in Image Pool when a new image
+satiating with our updating critical formula in video system. These rules fall
+into two categories: if the new image is from the same camera as the previous
+updated image, it will replace one of assist images; otherwise, it will replace
+the main image directly. Experiments are conduced on Market-1501, iLIDS-VID and
+PRID-2011 and our ITSD datasets to validate that our framework outperforms on
+rank-1 accuracy and mAP for person re-identification. Furthermore, the update
+ability of our framework provides consistently remarkable accuracy rate in
+real-world surveillance system.
+\\ ( https://arxiv.org/abs/1803.02983 ,  1167kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02987
+Date: Thu, 8 Mar 2018 07:26:20 GMT   (4803kb,D)
+
+Title: Instance Similarity Deep Hashing for Multi-Label Image Retrieval
+Authors: Zheng Zhang, Qin Zou, Qian Wang, Yuewei Lin, and Qingquan Li
+Categories: cs.CV
+\\
+  Hash coding has been widely used in the approximate nearest neighbor search
+for large-scale image retrieval. Recently, many deep hashing methods have been
+proposed and shown largely improved performance over traditional
+feature-learning-based methods. Most of these methods examine the pairwise
+similarity on the semantic-level labels, where the pairwise similarity is
+generally defined in a hard-assignment way. That is, the pairwise similarity is
+'1' if they share no less than one class label and '0' if they do not share
+any. However, such similarity definition cannot reflect the similarity ranking
+for pairwise images that hold multiple labels. In this paper, a new deep
+hashing method is proposed for multi-label image retrieval by re-defining the
+pairwise similarity into an instance similarity, where the instance similarity
+is quantified into a percentage based on the normalized semantic labels. Based
+on the instance similarity, a weighted cross-entropy loss and a minimum mean
+square error loss are tailored for loss-function construction, and are
+efficiently used for simultaneous feature learning and hash coding. Experiments
+on three popular datasets demonstrate that, the proposed method outperforms the
+competing methods and achieves the state-of-the-art performance in multi-label
+image retrieval.
+\\ ( https://arxiv.org/abs/1803.02987 ,  4803kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02988
+Date: Thu, 8 Mar 2018 07:28:55 GMT   (708kb,D)
+
+Title: Rethinking Feature Distribution for Loss Functions in Image
+  Classification
+Authors: Weitao Wan, Yuanyi Zhong, Tianpeng Li, Jiansheng Chen
+Categories: cs.CV
+Comments: Accepted to CVPR 2018 as spotlight
+\\
+  We propose a large-margin Gaussian Mixture (L-GM) loss for deep neural
+networks in classification tasks. Different from the softmax cross-entropy
+loss, our proposal is established on the assumption that the deep features of
+the training set follow a Gaussian Mixture distribution. By involving a
+classification margin and a likelihood regularization, the L-GM loss
+facilitates both a high classification performance and an accurate modeling of
+the training feature distribution. As such, the L-GM loss is superior to the
+softmax loss and its major variants in the sense that besides classification,
+it can be readily used to distinguish abnormal inputs, such as the adversarial
+examples, based on their features' likelihood to the training feature
+distribution. Extensive experiments on various recognition benchmarks like
+MNIST, CIFAR, ImageNet and LFW, as well as on adversarial examples demonstrate
+the effectiveness of our proposal.
+\\ ( https://arxiv.org/abs/1803.02988 ,  708kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03004
+Date: Thu, 8 Mar 2018 08:56:17 GMT   (254kb,D)
+
+Title: Learning Effective Binary Visual Representations with Deep Networks
+Authors: Jianxin Wu and Jian-Hao Luo
+Categories: cs.CV
+Comments: 16 pages, 3 figures
+\\
+  Although traditionally binary visual representations are mainly designed to
+reduce computational and storage costs in the image retrieval research, this
+paper argues that binary visual representations can be applied to large scale
+recognition and detection problems in addition to hashing in retrieval.
+Furthermore, the binary nature may make it generalize better than its
+real-valued counterparts. Existing binary hashing methods are either two-stage
+or hinging on loss term regularization or saturated functions, hence converge
+slowly and only emit soft binary values. This paper proposes Approximately
+Binary Clamping (ABC), which is non-saturating, end-to-end trainable, with fast
+convergence and can output true binary visual representations. ABC achieves
+comparable accuracy in ImageNet classification as its real-valued counterpart,
+and even generalizes better in object detection. On benchmark image retrieval
+datasets, ABC also outperforms existing hashing methods.
+\\ ( https://arxiv.org/abs/1803.03004 ,  254kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03025
+Date: Thu, 8 Mar 2018 10:14:41 GMT   (3698kb,D)
+
+Title: Robustness of control point configurations for homography and planar
+  pose estimation
+Authors: Raul Acuna, Volker Willert
+Categories: cs.CV
+\\
+  In this paper, we investigate the influence of the spatial configuration of a
+number of $n \geq 4$ control points on the accuracy and robustness of space
+resection methods, e.g. used by a fiducial marker for pose estimation. We find
+robust configurations of control points by minimizing the first order perturbed
+solution of the DLT algorithm which is equivalent to minimizing the condition
+number of the data matrix. An empirical statistical evaluation is presented
+verifying that these optimized control point configurations not only increase
+the performance of the DLT homography estimation but also improve the
+performance of planar pose estimation methods like IPPE and EPnP, including the
+iterative minimization of the reprojection error which is the most accurate
+algorithm. We provide the characteristics of stable control point
+configurations for real-world noisy camera data that are practically
+independent on the camera pose and form certain symmetric patterns dependent on
+the number of points. Finally, we present a comparison of optimized
+configuration versus the number of control points.
+\\ ( https://arxiv.org/abs/1803.03025 ,  3698kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03049
+Date: Thu, 8 Mar 2018 11:39:30 GMT   (747kb,D)
+
+Title: Preserving Semantic Relations for Zero-Shot Learning
+Authors: Yashas Annadani, Soma Biswas
+Categories: cs.CV
+Comments: CVPR 2018
+\\
+  Zero-shot learning has gained popularity due to its potential to scale
+recognition models without requiring additional training data. This is usually
+achieved by associating categories with their semantic information like
+attributes. However, we believe that the potential offered by this paradigm is
+not yet fully exploited. In this work, we propose to utilize the structure of
+the space spanned by the attributes using a set of relations. We devise
+objective functions to preserve these relations in the embedding space, thereby
+inducing semanticity to the embedding space. Through extensive experimental
+evaluation on five benchmark datasets, we demonstrate that inducing semanticity
+to the embedding space is beneficial for zero-shot learning. The proposed
+approach outperforms the state-of-the-art on the standard zero-shot setting as
+well as the more realistic generalized zero-shot setting. We also demonstrate
+how the proposed approach can be useful for making approximate semantic
+inferences about an image belonging to a category for which attribute
+information is not available.
+\\ ( https://arxiv.org/abs/1803.03049 ,  747kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03095
+Date: Thu, 8 Mar 2018 14:10:56 GMT   (7706kb,D)
+
+Title: Leveraging Unlabeled Data for Crowd Counting by Learning to Rank
+Authors: Xialei Liu, Joost van de Weijer, Andrew D. Bagdanov
+Categories: cs.CV
+Comments: Accepted by CVPR18
+\\
+  We propose a novel crowd counting approach that leverages abundantly
+available unlabeled crowd imagery in a learning-to-rank framework. To induce a
+ranking of cropped images , we use the observation that any sub-image of a
+crowded scene image is guaranteed to contain the same number or fewer persons
+than the super-image. This allows us to address the problem of limited size of
+existing datasets for crowd counting. We collect two crowd scene datasets from
+Google using keyword searches and query-by-example image retrieval,
+respectively. We demonstrate how to efficiently learn from these unlabeled
+datasets by incorporating learning-to-rank in a multi-task network which
+simultaneously ranks images and estimates crowd density maps. Experiments on
+two of the most challenging crowd counting datasets show that our approach
+obtains state-of-the-art results.
+\\ ( https://arxiv.org/abs/1803.03095 ,  7706kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03243
+Date: Thu, 8 Mar 2018 18:36:22 GMT   (7146kb,D)
+
+Title: Domain Adaptive Faster R-CNN for Object Detection in the Wild
+Authors: Yuhua Chen, Wen Li, Christos Sakaridis, Dengxin Dai, Luc Van Gool
+Categories: cs.CV
+Comments: Accepted to CVPR 2018
+\\
+  Object detection typically assumes that training and test data are drawn from
+an identical distribution, which, however, does not always hold in practice.
+Such a distribution mismatch will lead to a significant performance drop. In
+this work, we aim to improve the cross-domain robustness of object detection.
+We tackle the domain shift on two levels: 1) the image-level shift, such as
+image style, illumination, etc, and 2) the instance-level shift, such as object
+appearance, size, etc. We build our approach based on the recent
+state-of-the-art Faster R-CNN model, and design two domain adaptation
+components, on image level and instance level, to reduce the domain
+discrepancy. The two domain adaptation components are based on H-divergence
+theory, and are implemented by learning a domain classifier in adversarial
+training manner. The domain classifiers on different levels are further
+reinforced with a consistency regularization to learn a domain-invariant region
+proposal network (RPN) in the Faster R-CNN model. We evaluate our newly
+proposed approach using multiple datasets including Cityscapes, KITTI, SIM10K,
+etc. The results demonstrate the effectiveness of our proposed approach for
+robust object detection in various domain shift scenarios.
+\\ ( https://arxiv.org/abs/1803.03243 ,  7146kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02852
+Date: Wed, 7 Mar 2018 19:33:08 GMT   (24kb)
+
+Title: Value Alignment, Fair Play, and the Rights of Service Robots
+Authors: Daniel Estrada
+Categories: cs.CY cs.AI
+\\
+  Ethics and safety research in artificial intelligence is increasingly framed
+in terms of "alignment" with human values and interests. I argue that Turing's
+call for "fair play for machines" is an early and often overlooked contribution
+to the alignment literature. Turing's appeal to fair play suggests a need to
+correct human behavior to accommodate our machines, a surprising inversion of
+how value alignment is treated today. Reflections on "fair play" motivate a
+novel interpretation of Turing's notorious "imitation game" as a condition not
+of intelligence but instead of value alignment: a machine demonstrates a
+minimal degree of alignment (with the norms of conversation, for instance) when
+it can go undetected when interrogated by a human. I carefully distinguish this
+interpretation from the Moral Turing Test, which is not motivated by a
+principle of fair play, but instead depends on imitation of human moral
+behavior. Finally, I consider how the framework of fair play can be used to
+situate the debate over robot rights within the alignment literature. I argue
+that extending rights to service robots operating in public spaces is "fair" in
+precisely the sense that it encourages an alignment of interests between humans
+and machines.
+\\ ( https://arxiv.org/abs/1803.02852 ,  24kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02857
+Date: Wed, 7 Mar 2018 19:47:34 GMT   (4830kb,D)
+
+Title: Gerrymandering and Compactness: Implementation Flexibility and Abuse
+Authors: Richard Barnes and Justin Solomon
+Categories: cs.CY cs.CG
+Comments: 10 pages, 17 figures, 1 table
+\\
+  The shape of an electoral district may suggest whether it was drawn with
+political motivations, or gerrymandered. For this reason, quantifying the shape
+of districts, in particular their compactness, is a key task in politics and
+civil rights. A growing body of literature suggests and analyzes compactness
+measures mathematically, but little consideration has been given to how these
+scores should be calculated in practice. Here, we consider the effects of a
+number of decisions that must be made in interpreting and implementing a set of
+popular compactness scores. We show that the choices made in quantifying
+compactness may themselves become political tools, with seemingly innocuous
+decisions leading to disparate scores. We show that when the full range of
+implementation flexibility is used, it can be abused to make clearly
+gerrymandered districts appear quantitatively reasonable. This complicates
+using compactness as a legislative or judicial standard to counteract unfair
+redistricting practices. This paper accompanies the release of packages in C++,
+Python, and R which correctly, efficiently, and reproducibly calculate a
+variety of compactness scores.
+\\ ( https://arxiv.org/abs/1803.02857 ,  4830kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03029
+Date: Thu, 8 Mar 2018 10:31:28 GMT   (3042kb)
+
+Title: Digital Identity: The Effect of Trust and Reputation Information on User
+  Judgement in the Sharing Economy
+Authors: Mircea Zloteanu, Nigel Harvey, David Tuckett, Giacomo Livan
+Categories: cs.CY cs.SI
+\\
+  The Sharing Economy (SE) is a growing ecosystem focusing on peer-to-peer
+enterprise. In the SE the information available to assist individuals (users)
+in making decisions focuses predominantly on community generated trust and
+reputation information. However, how such information impacts user judgement is
+still being understood. To explore such effects, we constructed an artificial
+SE accommodation platform where we varied the elements related to hosts'
+digital identity, measuring users' perceptions and decisions to interact.
+Across three studies, we find that trust and reputation information increases
+not only the users' perceived trustworthiness, credibility, and sociability of
+hosts, but also the propensity to rent a private room in their home. This
+effect is seen when providing users both with complete profiles and profiles
+with partial user-selected information. Closer investigations reveal that three
+elements relating to the host's digital identity are sufficient to produce such
+positive perceptions and increased rental decisions, regardless of which three
+elements are presented. Our findings have relevant implications for human
+judgment and privacy in the SE, and question its current culture of ever
+increasing information-sharing.
+\\ ( https://arxiv.org/abs/1803.03029 ,  3042kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03249
+Date: Thu, 8 Mar 2018 18:48:29 GMT   (22kb)
+
+Title: Computing the Nucleolus of Weighted Cooperative Matching Games in
+  Polynomial Time
+Authors: Jochen Koenemann, Kanstantsin Pashkovich, Justin Toth
+Categories: cs.GT
+\\
+  We provide an efficient algorithm for computing the nucleolus for an instance
+of a weighted cooperative matching game. This resolves a long-standing open
+question of [Kern and Paulusma, Mathematics of Operations Research, 2003].
+\\ ( https://arxiv.org/abs/1803.03249 ,  22kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02855
+Date: Wed, 7 Mar 2018 19:41:44 GMT   (110kb,D)
+
+Title: Satisficing in Time-Sensitive Bandit Learning
+Authors: Daniel Russo and Benjamin Van Roy
+Categories: cs.LG cs.AI
+Comments: This submission largely supersedes earlier work in arXiv:1704.09028
+\\
+  Much of the recent literature on bandit learning focuses on algorithms that
+aim to converge on an optimal action. One shortcoming is that this orientation
+does not account for time sensitivity, which can play a crucial role when
+learning an optimal action requires much more information than near-optimal
+ones. Indeed, popular approaches such as upper-confidence-bound methods and
+Thompson sampling can fare poorly in such situations. We consider instead
+learning a satisficing action, which is near-optimal while requiring less
+information, and propose satisficing Thompson sampling, an algorithm that
+serves this purpose. We establish a general bound on expected discounted regret
+and study the application of satisficing Thompson sampling to linear and
+infinite-armed bandits, demonstrating arbitrarily large benefits over Thompson
+sampling. We also discuss the relation between the notion of satisficing and
+the theory of rate distortion, which offers guidance on the selection of
+satisficing actions.
+\\ ( https://arxiv.org/abs/1803.02855 ,  110kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02940
+Date: Thu, 8 Mar 2018 02:08:49 GMT   (670kb)
+
+Title: The Advantage of Doubling: A Deep Reinforcement Learning Approach to
+  Studying the Double Team in the NBA
+Authors: Jiaxuan Wang, Ian Fox, Jonathan Skaza, Nick Linck, Satinder Singh,
+  Jenna Wiens
+Categories: cs.LG
+Comments: Accepted to MIT Sloan Sports Analytics 2018. First two authors
+  contributed equally
+\\
+  During the 2017 NBA playoffs, Celtics coach Brad Stevens was faced with a
+difficult decision when defending against the Cavaliers: "Do you double and
+risk giving up easy shots, or stay at home and do the best you can?" It's a
+tough call, but finding a good defensive strategy that effectively incorporates
+doubling can make all the difference in the NBA. In this paper, we analyze
+double teaming in the NBA, quantifying the trade-off between risk and reward.
+Using player trajectory data pertaining to over 643,000 possessions, we
+identified when the ball handler was double teamed. Given these data and the
+corresponding outcome (i.e., was the defense successful), we used deep
+reinforcement learning to estimate the quality of the defensive actions. We
+present qualitative and quantitative results summarizing our learned defensive
+strategy for defending. We show that our policy value estimates are predictive
+of points per possession and win percentage. Overall, the proposed framework
+represents a step toward a more comprehensive understanding of defensive
+strategies in the NBA.
+\\ ( https://arxiv.org/abs/1803.02940 ,  670kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02956
+Date: Thu, 8 Mar 2018 04:01:56 GMT   (10kb,D)
+
+Title: Some Approximation Bounds for Deep Networks
+Authors: Brendan McCane and Lech Szymanski
+Categories: cs.LG
+Comments: 9 pages
+\\
+  In this paper we introduce new bounds on the approximation of functions in
+deep networks and in doing so introduce some new deep network architectures for
+function approximation. These results give some theoretical insight into the
+success of autoencoders and ResNets.
+\\ ( https://arxiv.org/abs/1803.02956 ,  10kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02965
+Date: Thu, 8 Mar 2018 04:50:21 GMT   (643kb)
+
+Title: A Multi-Objective Deep Reinforcement Learning Framework
+Authors: Thanh Thi Nguyen
+Categories: cs.LG cs.AI stat.ML
+\\
+  This paper presents a new multi-objective deep reinforcement learning (MODRL)
+framework based on deep Q-networks. We propose linear and non-linear methods to
+develop the MODRL framework that includes both single-policy and multi-policy
+strategies. The experimental results on a deep sea treasure environment
+indicate that the proposed approach is able to converge to the optimal Pareto
+solutions. The proposed framework is generic, which allows implementation of
+different deep reinforcement learning algorithms in various complex
+environments. Details of the framework implementation can be referred to
+http://www.deakin.edu.au/~thanhthi/drl.htm.
+\\ ( https://arxiv.org/abs/1803.02965 ,  643kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02991
+Date: Thu, 8 Mar 2018 07:42:39 GMT   (2501kb,D)
+
+Title: A Deep Generative Model for Disentangled Representations of Sequential
+  Data
+Authors: Yingzhen Li, Stephan Mandt
+Categories: cs.LG
+\\
+  We present a VAE architecture for encoding and generating high dimensional
+sequential data, such as video or audio. Our deep generative model learns a
+latent representation of the data which is split into a static and dynamic
+part, allowing us to approximately disentangle latent time-dependent features
+(dynamics) from features which are preserved over time (content). This
+architecture gives us partial control over generating content and dynamics by
+conditioning on either one of these sets of features. In our experiments on
+artificially generated cartoon video clips and voice recordings, we show that
+we can convert the content of a given sequence into another one by such content
+swapping. For audio, this allows us to convert a male speaker into a female
+speaker and vice versa, while for video we can separately manipulate shapes and
+dynamics. Furthermore, we give empirical evidence for the hypothesis that
+stochastic RNNs as latent state models are more efficient at compressing and
+generating long sequences than deterministic ones, which may be relevant for
+applications in video compression.
+\\ ( https://arxiv.org/abs/1803.02991 ,  2501kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02999
+Date: Thu, 8 Mar 2018 08:29:38 GMT   (944kb,D)
+
+Title: Reptile: a Scalable Metalearning Algorithm
+Authors: Alex Nichol, John Schulman
+Categories: cs.LG
+\\
+  This paper considers metalearning problems, where there is a distribution of
+tasks, and we would like to obtain an agent that performs well (i.e., learns
+quickly) when presented with a previously unseen task sampled from this
+distribution. We present a remarkably simple metalearning algorithm called
+Reptile, which learns a parameter initialization that can be fine-tuned quickly
+on a new task. Reptile works by repeatedly sampling a task, training on it, and
+moving the initialization towards the trained weights on that task. Unlike
+MAML, which also learns an initialization, Reptile doesn't require
+differentiating through the optimization process, making it more suitable for
+optimization problems where many update steps are required. We show that
+Reptile performs well on some well-established benchmarks for few-shot
+classification. We provide some theoretical analysis aimed at understanding why
+Reptile works.
+\\ ( https://arxiv.org/abs/1803.02999 ,  944kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03018
+Date: Thu, 8 Mar 2018 09:43:04 GMT   (273kb,D)
+
+Title: Cross-domain Recommendation via Deep Domain Adaptation
+Authors: Heishiro Kanagawa, Hayato Kobayashi, Nobuyuki Shimizu, Yukihiro Tagami
+  and Taiji Suzuki
+Categories: cs.LG cs.CL cs.IR
+\\
+  The behavior of users in certain services could be a clue that can be used to
+infer their preferences and may be used to make recommendations for other
+services they have never used. However, the cross-domain relationships between
+items and user consumption patterns are not simple, especially when there are
+few or no common users and items across domains. To address this problem, we
+propose a content-based cross-domain recommendation method for cold-start users
+that does not require user- and item- overlap. We formulate recommendation as
+extreme multi-class classification where labels (items) corresponding to the
+users are predicted. With this formulation, the problem is reduced to a domain
+adaptation setting, in which a classifier trained in the source domain is
+adapted to the target domain. For this, we construct a neural network that
+combines an architecture for domain adaptation, Domain Separation Network, with
+a denoising autoencoder for item representation. We assess the performance of
+our approach in experiments on a pair of data sets collected from movie and
+news services of Yahoo! JAPAN and show that our approach outperforms several
+baseline methods including a cross-domain collaborative filtering method.
+\\ ( https://arxiv.org/abs/1803.03018 ,  273kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03148
+Date: Thu, 8 Mar 2018 15:22:37 GMT   (757kb,D)
+
+Title: Generating Differentially Private Datasets Using GANs
+Authors: Aleksei Triastcyn, Boi Faltings
+Categories: cs.LG cs.CR stat.ML
+Comments: This paper is the corrected version of the ICLR 2018 submission
+  (https://openreview.net/forum?id=rJv4XWZA-)
+\\
+  In this paper, we present a technique for generating artificial datasets that
+retain statistical properties of the real data while providing differential
+privacy guarantees with respect to this data. We include a Gaussian noise layer
+in the discriminator of a generative adversarial network to make the output and
+the gradients differentially private with respect to the training data, and
+then use the generator component to synthesise privacy-preserving artificial
+dataset. Our experiments show that under a reasonably small privacy budget we
+are able to generate data of high quality and successfully train machine
+learning models on this artificial data.
+\\ ( https://arxiv.org/abs/1803.03148 ,  757kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03155
+Date: Thu, 8 Mar 2018 15:32:49 GMT   (71kb,D)
+
+Title: Learning with Rules
+Authors: Deborah Cohen, Amit Daniely, Amir Globerson, Gal Elidan
+Categories: cs.LG
+\\
+  Complex classifiers may exhibit "embarassing" failures in cases that would be
+easily classified and justified by a human. Avoiding such failures is obviously
+paramount, particularly in domains where we cannot accept this unexplained
+behavior. In this work, we focus on one such setting, where a label is
+perfectly predictable if the input contains certain features, and otherwise, it
+is predictable by a linear classifier. We define a related hypothesis class and
+determine its sample complexity. We also give evidence that efficient
+algorithms cannot, unfortunately, enjoy this sample complexity. We then derive
+a simple and efficient algorithm, and also give evidence that its sample
+complexity is optimal, among efficient algorithms. Experiments on sentiment
+analysis demonstrate the efficacy of the method, both in terms of accuracy and
+interpretability.
+\\ ( https://arxiv.org/abs/1803.03155 ,  71kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03239
+Date: Thu, 8 Mar 2018 18:23:17 GMT   (30kb)
+
+Title: Fairness Through Computationally-Bounded Awareness
+Authors: Michael P. Kim and Omer Reingold and Guy N. Rothblum
+Categories: cs.LG cs.CC cs.DS
+\\
+  We study the problem of fair classification within the versatile framework of
+Dwork et al. [ITCS 2012], which assumes the existence of a metric that measures
+similarity between pairs of individuals. Unlike previous works on metric-based
+fairness, we do not assume that the entire metric is known to the learning
+algorithm. Instead, we study the setting where a learning algorithm can query
+this metric a bounded number of times to ascertain similarities between
+particular pairs of individuals. For example, the queries might be answered by
+a panel of specialists spanning social scientists, statisticians, demographers,
+and ethicists.
+  We propose "metric multifairness," a new definition of fairness that is
+parameterized by a similarity metric $\delta$ on pairs of individuals and a
+collection ${\cal C}$ of"comparison sets" over pairs of individuals. One way to
+view this collection is as the family of comparisons that can be expressed
+within some computational bound. With this interpretation, metric
+multifairnesss loosely guarantees that similar subpopulations are treated
+similarly, as long as these subpopulations can be identified within this bound.
+In particular, metric multifairness implies that a rich class of subpopulations
+are protected from a multitude of discriminatory behaviors.
+  We provide a general-purpose framework for learning a metric multifair
+hypothesis that achieves near-optimal loss from a small number of random
+samples from the metric $\delta$. We study the sample complexity and time
+complexity of learning a metric multifair hypothesis (providing rather tight
+upper and lower bounds) by connecting it to the task of learning the class
+${\cal C}$. In particular, if the class ${\cal C}$ admits an efficient agnostic
+learner, then we can learn such a metric multifair hypothesis efficiently.
+\\ ( https://arxiv.org/abs/1803.03239 ,  30kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03241
+Date: Thu, 8 Mar 2018 18:30:31 GMT   (435kb)
+
+Title: Efficient Algorithms for Outlier-Robust Regression
+Authors: Adam Klivans and Pravesh K. Kothari and Raghu Meka
+Categories: cs.LG cs.AI cs.DS stat.ML
+Comments: 28 pages
+\\
+  We give the first polynomial-time algorithm for performing linear or
+polynomial regression resilient to adversarial corruptions in both examples and
+labels.
+  Given a sufficiently large (polynomial-size) training set drawn i.i.d. from
+distribution D and subsequently corrupted on some fraction of points, our
+algorithm outputs a linear function whose squared error is close to the squared
+error of the best-fitting linear function with respect to D, assuming that the
+marginal distribution of D over the input space is \emph{certifiably
+hypercontractive}. This natural property is satisfied by many well-studied
+distributions such as Gaussian, strongly log-concave distributions and, uniform
+distribution on the hypercube among others. We also give a simple statistical
+lower bound showing that some distributional assumption is necessary to succeed
+in this setting.
+  These results are the first of their kind and were not known to be even
+information-theoretically possible prior to our work.
+  Our approach is based on the sum-of-squares (SoS) method and is inspired by
+the recent applications of the method for parameter recovery problems in
+unsupervised learning. Our algorithm can be seen as a natural convex relaxation
+of the following conceptually simple non-convex optimization problem: find a
+linear function and a large subset of the input corrupted sample such that the
+least squares loss of the function over the subset is minimized over all
+possible large subsets.
+\\ ( https://arxiv.org/abs/1803.03241 ,  435kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03242
+Date: Thu, 8 Mar 2018 18:35:08 GMT   (43kb)
+
+Title: Probably Approximately Metric-Fair Learning
+Authors: Guy N. Rothblum and Gal Yona
+Categories: cs.LG cs.DS
+\\
+  We study fairness in machine learning. A learning algorithm, given a training
+set drawn from an underlying population, learns a classifier that will be used
+to make decisions about individuals. The concern is that this classifier's
+decisions might be discriminatory, favoring certain subpopulations over others.
+The seminal work of Dwork et al. [ITCS 2012] introduced fairness through
+awareness, positing that a fair classifier should treat similar individuals
+similarly. Similarity between individuals is measured by a task-specific
+similarity metric. In the context of machine learning, however, this fairness
+notion faces serious difficulties, as it does not generalize and can be
+computationally intractable.
+  We introduce a relaxed notion of approximate metric-fairness, which allows a
+small fairness error: for a random pair of individuals sampled from the
+population, with all but a small probability of error, if they are similar then
+they are treated similarly. In particular, this provides
+discrimination-protections to every subpopulation that is not too small. We
+show that approximate metric-fairness does generalize from a training set to
+the underlying population, and we leverage these generalization guarantees to
+construct polynomial-time learning algorithms that achieve competitive accuracy
+subject to fairness constraints.
+\\ ( https://arxiv.org/abs/1803.03242 ,  43kb)
+%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-%-
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02765 (*cross-listing*)
+Date: Wed, 7 Mar 2018 17:40:06 GMT   (205kb)
+
+Title: Realizing Intelligence
+Authors: Paul Yaworsky
+Categories: q-bio.NC cs.AI
+Comments: 8 pages
+\\
+  Order exists in the world. The intelligence process enables us to realize
+that order, to some extent. We provide a high level description of intelligence
+using simple definitions, basic building blocks, a conceptual framework and
+general hierarchy. This perspective includes multiple levels of abstraction
+occurring in space and in time. The resulting model offers simple, useful ways
+to help realize the essence of intelligence.
+\\ ( https://arxiv.org/abs/1803.02765 ,  205kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02865 (*cross-listing*)
+Date: Wed, 7 Mar 2018 20:30:35 GMT   (422kb,D)
+
+Title: WNGrad: Learn the Learning Rate in Gradient Descent
+Authors: Xiaoxia Wu and Rachel Ward and L\'eon Bottou
+Categories: stat.ML cs.AI cs.LG math.NA math.OC
+Comments: 10 pages, 3 figures, conference
+MSC-class: 80M50, 90C15, 90C26, 90C30, 68T05
+\\
+  Adjusting the learning rate schedule in stochastic gradient methods is an
+important unresolved problem which requires tuning in practice. If certain
+parameters of the loss function such as smoothness or strong convexity
+constants are known, theoretical learning rate schedules can be applied.
+However, in practice, such parameters are not known, and the loss function of
+interest is not convex in any case. The recently proposed batch normalization
+reparametrization is widely adopted in most neural network architectures today
+because, among other advantages, it is robust to the choice of Lipschitz
+constant of the gradient in loss function, allowing one to set a large learning
+rate without worry. Inspired by batch normalization, we propose a general
+nonlinear update rule for the learning rate in batch and stochastic gradient
+descent so that the learning rate can be initialized at a high value, and is
+subsequently decreased according to gradient observations along the way. The
+proposed method is shown to achieve robustness to the relationship between the
+learning rate and the Lipschitz constant, and near-optimal convergence rates in
+both the batch and stochastic settings ($O(1/T)$ for smooth loss in the batch
+setting, and $O(1/\sqrt{T})$ for convex loss in the stochastic setting). We
+also show through numerical evidence that such robustness of the proposed
+method extends to highly nonconvex and possibly non-smooth loss function in
+deep learning problems.Our analysis establishes some first theoretical
+understanding into the observed robustness for batch normalization and weight
+normalization.
+\\ ( https://arxiv.org/abs/1803.02865 ,  422kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02998 (*cross-listing*)
+Date: Thu, 8 Mar 2018 08:20:43 GMT   (134kb,D)
+
+Title: DeepCAS: A Deep Reinforcement Learning Algorithm for Control-Aware
+  Scheduling
+Authors: Burak Demirel, Arunselvan Ramaswamy, Daniel E. Quevedo and Holger Karl
+Categories: cs.SY cs.AI
+\\
+  We consider networked control systems consisting of multiple independent
+closed-loop control subsystems, operating over a shared communication network.
+Such systems are ubiquitous in cyber-physical systems, Internet of Things, and
+large-scale industrial systems. In many large-scale settings, the size of the
+communication network is smaller than the size of the system. In consequence,
+scheduling issues arise. The main contribution of this paper is to develop a
+deep reinforcement learning-based \emph{control-aware} scheduling
+(\textsc{DeepCAS}) algorithm to tackle these issues. We use the following
+(optimal) design strategy: First, we synthesize an optimal controller for each
+subsystem; next, we design learning algorithm that adapts to the chosen
+subsystem (plant) and controller. As a consequence of this adaptation, our
+algorithm finds a schedule that minimizes the \emph{control loss}. We present
+empirical results to show that \textsc{DeepCAS} finds schedules with better
+performance than periodic ones. Finally, we illustrate that our algorithm can
+be used for \emph{scheduling and resource allocation in more general networked
+control settings than the above-mentioned one}.
+\\ ( https://arxiv.org/abs/1803.02998 ,  134kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03146 (*cross-listing*)
+Date: Thu, 8 Mar 2018 15:12:16 GMT   (3038kb)
+
+Title: SentRNA: Improving computational RNA design by incorporating a prior of
+  human design strategies
+Authors: Jade Shi (EteRNA players), Rhiju Das, and Vijay S. Pande
+Categories: q-bio.QM cs.AI stat.ML
+Comments: 26 pages (not including Supplementary Information), 7 figures, 4
+  tables
+\\
+  Designing RNA sequences that fold into specific structures and perform
+desired biological functions is an emerging field in bioengineering with broad
+applications from intracellular chemical catalysis to cancer therapy via
+selective gene silencing. Effective RNA design requires first solving the
+inverse folding problem: given a target structure, propose a sequence that
+folds into that structure. Although significant progress has been made in
+developing computational algorithms for this purpose, current approaches are
+ineffective at designing sequences for complex targets, limiting their utility
+in real-world applications. However, an alternative that has shown
+significantly higher performance are human players of the online RNA design
+game EteRNA. Through many rounds of gameplay, these players have developed a
+collective library of "human" rules and strategies for RNA design that have
+proven to be more effective than current computational approaches, especially
+for complex targets. Here, we present an RNA design agent, SentRNA, which
+consists of a fully-connected neural network trained using the $eternasolves$
+dataset, a set of $1.8 x 10^4$ player-submitted sequences across 724 unique
+targets. The agent first predicts an initial sequence for a target using the
+trained network, and then refines that solution if necessary using a short
+adaptive walk utilizing a canon of standard design moves. Through this
+approach, we observe SentRNA can learn and apply human-like design strategies
+to solve several complex targets previously unsolvable by any computational
+approach. We thus demonstrate that incorporating a prior of human design
+strategies into a computational agent can significantly boost its performance,
+and suggests a new paradigm for machine-based RNA design.
+\\ ( https://arxiv.org/abs/1803.03146 ,  3038kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03104 (*cross-listing*)
+Date: Thu, 8 Mar 2018 14:31:46 GMT   (379kb,D)
+
+Title: Applicability and interpretation of the deterministic weighted cepstral
+  distance
+Authors: Oliver Lauwers, Bart De Moor
+Categories: cs.SY cs.CV math.DS stat.ML
+Comments: 18 pages, 5 figures, submitted for review to Automatica
+\\
+  Quantifying similarity between data objects is an important part of modern
+data science. Deciding what similarity measure to use is very application
+dependent. In this paper, we combine insights from systems theory and machine
+learning, and investigate the weighted cepstral distance, which was previously
+defined for signals coming from ARMA models. We provide an extension of this
+distance to invertible deterministic linear time invariant single input single
+output models, and assess its applicability. We show that it can always be
+interpreted in terms of the poles and zeros of the underlying model, and that,
+in the case of stable, minimum-phase, or unstable, maximum-phase models, a
+geometrical interpretation in terms of subspace angles can be given. We then
+devise a method to assess stability and phase-type of the generating models,
+using only input/output signal information. In this way, we prove a connection
+between the extended weighted cepstral distance and a weighted cepstral model
+norm. In this way, we provide a purely data-driven way to assess different
+underlying dynamics of input/output signal pairs, without the need for any
+system identification step. This can be useful in machine learning tasks such
+as time series clustering. An iPython tutorial is published complementary to
+this paper, containing implementations of the various methods and algorithms
+presented here, as well as some numerical illustrations of the equivalences
+proven here.
+\\ ( https://arxiv.org/abs/1803.03104 ,  379kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03200 (*cross-listing*)
+Date: Thu, 8 Mar 2018 17:01:32 GMT   (974kb,D)
+
+Title: Towards Knowledge Discovery from the Vatican Secret Archives. In Codice
+  Ratio -- Episode 1: Machine Transcription of the Manuscripts
+Authors: Donatella Firmani, Marco Maiorino, Paolo Merialdo, and Elena Nieddu
+Categories: cs.DL cs.CV
+\\
+  In Codice Ratio is a research project to study tools and techniques for
+analyzing the contents of historical documents conserved in the Vatican Secret
+Archives (VSA). In this paper, we present our efforts to develop a system to
+support the transcription of medieval manuscripts. The goal is to provide
+paleographers with a tool to reduce their efforts in transcribing large
+volumes, as those stored in the VSA, producing good transcriptions for
+significant portions of the manuscripts. We propose an original approach based
+on character segmentation. Our solution is able to deal with the dirty
+segmentation that inevitably occurs in handwritten documents. We use a
+convolutional neural network to recognize characters and language models to
+compose word transcriptions. Our approach requires minimal training efforts,
+making the transcription process more scalable as the production of training
+sets requires a few pages and can be easily crowdsourced. We have conducted
+experiments on manuscripts from the Vatican Registers, an unreleased corpus
+containing the correspondence of the popes. With training data produced by 120
+high school students, our system has been able to produce good transcriptions
+that can be used by paleographers as a solid basis to speedup the transcription
+process at a large scale.
+\\ ( https://arxiv.org/abs/1803.03200 ,  974kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03254 (*cross-listing*)
+Date: Thu, 8 Mar 2018 18:52:03 GMT   (2868kb,D)
+
+Title: GONet: A Semi-Supervised Deep Learning Approach For Traversability
+  Estimation
+Authors: Noriaki Hirose, Amir Sadeghian, Marynel V\'azquez, Patrick Goebel, and
+  Silvio Savarese
+Categories: cs.RO cs.CV cs.LG
+Comments: 8 pages, 7 figures, 3 tables
+\\
+  We present semi-supervised deep learning approaches for traversability
+estimation from fisheye images. Our method, GONet, and the proposed extensions
+leverage Generative Adversarial Networks (GANs) to effectively predict whether
+the area seen in the input image(s) is safe for a robot to traverse. These
+methods are trained with many positive images of traversable places, but just a
+small set of negative images depicting blocked and unsafe areas. This makes the
+proposed methods practical. Positive examples can be collected easily by simply
+operating a robot through traversable spaces, while obtaining negative examples
+is time consuming, costly, and potentially dangerous. Through extensive
+experiments and several demonstrations, we show that the proposed
+traversability estimation approaches are robust and can generalize to unseen
+scenarios. Further, we demonstrate that our methods are memory efficient and
+fast, allowing for real-time operation on a mobile robot with single or stereo
+fisheye cameras. As part of our contributions, we open-source two new datasets
+for traversability estimation. These datasets are composed of approximately 24h
+of videos from more than 25 indoor environments. Our methods outperform
+baseline approaches for traversability estimation on these new datasets.
+\\ ( https://arxiv.org/abs/1803.03254 ,  2868kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02887 (*cross-listing*)
+Date: Wed, 7 Mar 2018 21:50:37 GMT   (1576kb,D)
+
+Title: A first look at browser-based Cryptojacking
+Authors: Shayan Eskandari, Andreas Leoutsarakos, Troy Mursch, Jeremy Clark
+Categories: cs.CR cs.CY cs.HC econ.EM
+Comments: 9 pages, IEEE SECURITY & PRIVACY ON THE BLOCKCHAIN (IEEE S&B) 2018
+  University College London (UCL), London, UK
+\\
+  In this paper, we examine the recent trend towards in-browser mining of
+cryptocurrencies; in particular, the mining of Monero through Coinhive and
+similar code- bases. In this model, a user visiting a website will download a
+JavaScript code that executes client-side in her browser, mines a
+cryptocurrency, typically without her consent or knowledge, and pays out the
+seigniorage to the website. Websites may consciously employ this as an
+alternative or to supplement advertisement revenue, may offer premium content
+in exchange for mining, or may be unwittingly serving the code as a result of a
+breach (in which case the seigniorage is collected by the attacker). The
+cryptocurrency Monero is preferred seemingly for its unfriendliness to
+large-scale ASIC mining that would drive browser-based efforts out of the
+market, as well as for its purported privacy features. In this paper, we survey
+this landscape, conduct some measurements to establish its prevalence and
+profitability, outline an ethical framework for considering whether it should
+be classified as an attack or business opportunity, and make suggestions for
+the detection, mitigation and/or prevention of browser-based mining for non-
+consenting users.
+\\ ( https://arxiv.org/abs/1803.02887 ,  1576kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02890 (*cross-listing*)
+Date: Mon, 5 Feb 2018 15:34:53 GMT   (368kb)
+
+Title: Challenges: Bridge between Cloud and IoT
+Authors: Mohammad Riyaz Belgaum, Safeeullah Soomro, Zainab Alansari, Muhammad
+  Alam, Shahrulniza Musa and Mazliham Mohd Suud
+Categories: cs.SE cs.CY
+Comments: ICETAS IEEE Proceedings 2017
+\\
+  In the real time processing, a new emerging technology where the need of
+connecting smart devices with cloud through Internet has raised. IoT devices
+processed information is to be stored and accessed anywhere needed with a
+support of powerful computing performance, efficient storage infrastructure for
+heterogeneous systems and software which configures and controls these
+different devices. A lot of challenges to be addressed are listed with this new
+emerging technology as it needs to be compatible with the upcoming 5G wireless
+devices too. In this paper, the benefits and challenges of this innovative
+paradigm along with the areas open to do research are shown.
+\\ ( https://arxiv.org/abs/1803.02890 ,  368kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02879 (*cross-listing*)
+Date: Wed, 7 Mar 2018 21:18:25 GMT   (490kb,D)
+
+Title: Deep Models of Interactions Across Sets
+Authors: Jason Hartford, Devon R Graham, Kevin Leyton-Brown, Siamak Ravanbakhsh
+Categories: stat.ML cs.LG
+\\
+  We use deep learning to model interactions across two or more sets of
+objects, such as user-movie ratings or protein-drug bindings. The canonical
+representation of such interactions is a matrix (or tensor) with an
+exchangeability property: the encoding's meaning is not changed by permuting
+rows or columns. We argue that models should hence be Permutation Equivariant
+(PE): constrained to make the same predictions across such permutations. We
+present a parameter-sharing scheme and prove that it could not be made any more
+expressive without violating PE. This scheme yields three benefits. First, we
+demonstrate performance competitive with the state of the art on multiple
+matrix completion benchmarks. Second, our models require a number of parameters
+independent of the numbers of objects, and thus scale well to large datasets.
+Third, models can be queried about new objects that were not available at
+training time, but for which interactions have since been observed. We observed
+surprisingly good generalization performance on this matrix extrapolation task,
+both within domains (e.g., new users and new movies drawn from the same
+distribution used for training) and even across domains (e.g., predicting music
+ratings after training on movie ratings).
+\\ ( https://arxiv.org/abs/1803.02879 ,  490kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02922 (*cross-listing*)
+Date: Thu, 8 Mar 2018 00:19:11 GMT   (10kb)
+
+Title: Fast Convergence for Stochastic and Distributed Gradient Descent in the
+  Interpolation Limit
+Authors: Partha P Mitra
+Categories: stat.ML cs.LG
+Comments: Submitted to EUSIPCO 2018
+\\
+  Modern supervised learning techniques, particularly those using so called
+deep nets, involve fitting high dimensional labelled data sets with functions
+containing very large numbers of parameters. Much of this work is empirical,
+and interesting phenomena have been observed that require theoretical
+explanations, however the non-convexity of the loss functions complicates the
+analysis. Recently it has been proposed that some of the success of these
+techniques resides in the effectiveness of the simple stochastic gradient
+descent algorithm in the so called interpolation limit in which all labels are
+fit perfectly. This analysis is made possible since the SGD algorithm reduces
+to a stochastic linear system near the interpolating minimum of the loss
+function. Here we exploit this insight by analyzing a distributed algorithm for
+gradient descent, also in the interpolating limit. The algorithm corresponds to
+gradient descent applied to a simple penalized distributed loss function,
+$L({\bf w}_1,...,{\bf w}_n) = \Sigma_i l_i({\bf w}_i) + \mu \sum_{<i,j>}|{\bf
+w}_i-{\bf w}_j|^2$. Here each node is allowed its own parameter vector and
+$<i,j>$ denotes edges of a connected graph defining the communication links
+between nodes. It is shown that this distributed algorithm converges linearly
+(ie the error reduces exponentially with iteration number), with a rate
+$1-\frac{\eta}{n}\lambda_{min}(H)<R<1$ where $\lambda_{min}(H)$ is the smallest
+nonzero eigenvalue of the sample covariance or the Hessian H. In contrast with
+previous usage of similar penalty functions to enforce consensus between nodes,
+in the interpolating limit it is not required to take the penalty parameter to
+infinity for consensus to occur. The analysis further reinforces the utility of
+this limit in the theoretical treatment of modern machine learning algorithms.
+\\ ( https://arxiv.org/abs/1803.02922 ,  10kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03039 (*cross-listing*)
+Date: Thu, 8 Mar 2018 11:04:58 GMT   (3802kb,D)
+
+Title: Design of a nickel-base superalloy using a neural network
+Authors: B.D. Conduit, N.G. Jones, H.J. Stone, and G.J. Conduit
+Categories: cond-mat.mtrl-sci cs.LG physics.comp-ph
+Journal-ref: Materials & Design 131, 358 (2017)
+\\
+  A new computational tool has been developed to model, discover, and optimize
+new alloys that simultaneously satisfy up to eleven physical criteria. An
+artificial neural network is trained from pre-existing materials data that
+enables the prediction of individual material properties both as a function of
+composition and heat treatment routine, which allows it to optimize the
+material properties to search for the material with properties most likely to
+exceed a target criteria. We design a new polycrystalline nickel-base
+superalloy with the optimal combination of cost, density, gamma' phase content
+and solvus, phase stability, fatigue life, yield stress, ultimate tensile
+strength, stress rupture, oxidation resistance, and tensile elongation.
+Experimental data demonstrates that the proposed alloy fulfills the
+computational predictions, possessing multiple physical properties,
+particularly oxidation resistance and yield stress, that exceed existing
+commercially available alloys.
+\\ ( https://arxiv.org/abs/1803.03039 ,  3802kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03145 (*cross-listing*)
+Date: Thu, 8 Mar 2018 15:08:46 GMT   (434kb,D)
+
+Title: Physical Layer Communications System Design Over-the-Air Using
+  Adversarial Networks
+Authors: Timothy J. O'Shea, Tamoghna Roy, Nathan West, Benjamin C. Hilburn
+Categories: eess.SP cs.LG
+\\
+  This paper presents a novel method for synthesizing new physical layer
+modulation and coding schemes for communications systems using a learning-based
+approach which does not require an analytic model of the impairments in the
+channel. It extends prior work published on the channel autoencoder to consider
+the case where the channel response is not known or can not be easily modeled
+in a closed form analytic expression. By adopting an adversarial approach for
+channel response approximation and information encoding, we can jointly learn a
+good solution to both tasks over a wide range of channel environments. We
+describe the operation of the proposed adversarial system, share results for
+its training and validation over-the-air, and discuss implications and future
+work in the area.
+\\ ( https://arxiv.org/abs/1803.03145 ,  434kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03185 (*cross-listing*)
+Date: Thu, 8 Mar 2018 16:22:26 GMT   (90kb,D)
+
+Title: Drug Recommendation toward Safe Polypharmacy
+Authors: Wen-Hao Chiang, Li Shen, Lang Li and Xia Ning
+Categories: cs.IR cs.LG
+\\
+  Adverse drug reactions (ADRs) induced from high-order drug-drug interactions
+(DDIs) due to polypharmacy represent a significant public health problem. In
+this paper, we formally formulate the to-avoid and safe (with respect to ADRs)
+drug recommendation problems when multiple drugs have been taken
+simultaneously. We develop a joint model with a recommendation component and an
+ADR label prediction component to recommend for a prescription a set of
+to-avoid drugs that will induce ADRs if taken together with the prescription.
+We also develop real drug-drug interaction datasets and corresponding
+evaluation protocols. Our experimental results on real datasets demonstrate the
+strong performance of the joint model compared to other baseline methods.
+\\ ( https://arxiv.org/abs/1803.03185 ,  90kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03191 (*cross-listing*)
+Date: Thu, 8 Mar 2018 16:33:09 GMT   (304kb,D)
+
+Title: A Bayesian and Machine Learning approach to estimating Influence Model
+  parameters for IM-RO
+Authors: Trisha Lawrence
+Categories: stat.ML cs.LG
+\\
+  The rise of Online Social Networks (OSNs) has caused an insurmountable amount
+of interest from advertisers and researchers seeking to monopolize on its
+features. Researchers aim to develop strategies for determining how information
+is propagated among users within an OSN that is captured by diffusion or
+influence models. We consider the influence models for the IM-RO problem, a
+novel formulation to the Influence Maximization (IM) problem based on
+implementing Stochastic Dynamic Programming (SDP). In contrast to existing
+approaches involving influence spread and the theory of submodular functions,
+the SDP method focuses on optimizing clicks and ultimately revenue to
+advertisers in OSNs. Existing approaches to influence maximization have been
+actively researched over the past decade, with applications to multiple fields,
+however, our approach is a more practical variant to the original IM problem.
+In this paper, we provide an analysis on the influence models of the IM-RO
+problem by conducting experiments on synthetic and real-world datasets. We
+propose a Bayesian and Machine Learning approach for estimating the parameters
+of the influence models for the (Influence Maximization- Revenue Optimization)
+IM-RO problem. We present a Bayesian hierarchical model and implement the
+well-known Naive Bayes classifier (NBC), Decision Trees classifier (DTC) and
+Random Forest classifier (RFC) on three real-world datasets. Compared to
+previous approaches to estimating influence model parameters, our strategy has
+the great advantage of being directly implementable in standard software
+packages such as WinBUGS/OpenBUGS/JAGS and Apache Spark. We demonstrate the
+efficiency and usability of our methods in terms of spreading information and
+generating revenue for advertisers in the context of OSNs.
+\\ ( https://arxiv.org/abs/1803.03191 ,  304kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.03234 (*cross-listing*)
+Date: Thu, 8 Mar 2018 18:07:40 GMT   (1031kb,D)
+
+Title: Improving Optimization in Models With Continuous Symmetry Breaking
+Authors: Robert Bamler and Stephan Mandt
+Categories: stat.ML cs.LG
+Comments: 8 pages + references, 4 figures, 2 tables
+\\
+  Many loss functions in representation learning are invariant under a
+continuous symmetry transformation. As an example, consider word embeddings
+(Mikolov et al., 2013), where the loss remains unchanged if we simultaneously
+rotate all word and context embedding vectors. We show that representation
+learning models with a continuous symmetry and a quadratic Markovian time
+series prior possess so-called Goldstone modes. These are low cost deviations
+from the optimum which slow down convergence of gradient descent. We use tools
+from gauge theory in physics to design an optimization algorithm that solves
+the slow convergence problem. Our algorithm leads to a fast decay of Goldstone
+modes, to orders of magnitude faster convergence, and to more interpretable
+representations, as we show for dynamic extensions of matrix factorization and
+word embedding models. We present an example application, translating modern
+words into historic language using a shared representation space.
+\\ ( https://arxiv.org/abs/1803.03234 ,  1031kb)
+%%--%%--%%--%%--%%--%%--%%--%%--%%--%%--%%--%%--%%--%%--%%--%%--%%--%%--%%--%%
+------------------------------------------------------------------------------
+\\
+arXiv:1710.11417
+replaced with revised version Thu, 8 Mar 2018 17:30:48 GMT   (3643kb,D)
+
+Title: TreeQN and ATreeC: Differentiable Tree-Structured Models for Deep
+  Reinforcement Learning
+Authors: Gregory Farquhar, Tim Rockt\"aschel, Maximilian Igl, Shimon Whiteson
+Categories: cs.AI cs.LG cs.NE stat.ML
+\\ ( https://arxiv.org/abs/1710.11417 ,  3643kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1802.04520
+replaced with revised version Thu, 8 Mar 2018 07:43:44 GMT   (0kb,I)
+
+Title: Learning Robust and Adaptive Real-World Continuous Control Using
+  Simulation and Transfer Learning
+Authors: M Ferguson, K. H. Law
+Categories: cs.AI
+Comments: The paper has several technical errors. Rather than correct these
+  errors we have chosen to significantly reformulate the work
+\\ ( https://arxiv.org/abs/1802.04520 ,  0kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1602.06289
+replaced with revised version Thu, 8 Mar 2018 18:45:32 GMT   (564kb,D)
+
+Title: Learning to SMILE(S)
+Authors: Stanis{\l}aw Jastrz\k{e}bski, Damian Le\'sniak, Wojciech Marian
+  Czarnecki
+Categories: cs.CL
+Comments: Accepted as a workshop contribution to ICLR 2016
+\\ ( https://arxiv.org/abs/1602.06289 ,  564kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1705.07267
+replaced with revised version Thu, 8 Mar 2018 08:15:24 GMT   (2338kb,D)
+
+Title: Search Engine Guided Non-Parametric Neural Machine Translation
+Authors: Jiatao Gu, Yong Wang, Kyunghyun Cho and Victor O.K. Li
+Categories: cs.CL cs.AI cs.LG
+Comments: Accepted by AAAI 2018
+\\ ( https://arxiv.org/abs/1705.07267 ,  2338kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1801.04726
+replaced with revised version Thu, 8 Mar 2018 15:28:22 GMT   (0kb,I)
+
+Title: An Interpretable Reasoning Network for Multi-Relation Question Answering
+Authors: Mantong Zhou, Minlie Huang, Xiaoyan Zhu
+Categories: cs.CL
+Comments: error in Sec.3
+\\ ( https://arxiv.org/abs/1801.04726 ,  0kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1801.07495
+replaced with revised version Thu, 8 Mar 2018 12:25:38 GMT   (675kb)
+
+Title: The Enemy Among Us: Detecting Hate Speech with Threats Based 'Othering'
+  Language Embeddings
+Authors: Wafa Alorainy, Pete Burnap, Han Liu, Matthew Williams
+Categories: cs.CL cs.SI
+\\ ( https://arxiv.org/abs/1801.07495 ,  675kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1612.01635
+replaced with revised version Thu, 8 Mar 2018 07:05:30 GMT   (1571kb,D)
+
+Title: Learning to Detect Multiple Photographic Defects
+Authors: Ning Yu, Xiaohui Shen, Zhe Lin, Radomir Mech, Connelly Barnes
+Categories: cs.CV
+Comments: Accepted to WACV'18
+\\ ( https://arxiv.org/abs/1612.01635 ,  1571kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1708.00052
+replaced with revised version Thu, 8 Mar 2018 11:44:36 GMT   (4412kb,D)
+
+Title: Streaming Architecture for Large-Scale Quantized Neural Networks on an
+  FPGA-Based Dataflow Platform
+Authors: Chaim Baskin, Natan Liss, Evgenii Zheltonozhskii, Alex M. Bronshtein,
+  Avi Mendelson
+Categories: cs.CV cs.AR cs.LG
+Comments: Will appear in RAW 2018
+\\ ( https://arxiv.org/abs/1708.00052 ,  4412kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1710.04773
+replaced with revised version Thu, 8 Mar 2018 18:45:27 GMT   (872kb,D)
+
+Title: Residual Connections Encourage Iterative Inference
+Authors: Stanis{\l}aw Jastrz\k{e}bski, Devansh Arpit, Nicolas Ballas, Vikas
+  Verma, Tong Che, Yoshua Bengio
+Categories: cs.CV
+Comments: First two authors contributed equally. Published in ICLR 2018
+\\ ( https://arxiv.org/abs/1710.04773 ,  872kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1710.05267
+replaced with revised version Thu, 8 Mar 2018 01:58:23 GMT   (719kb)
+
+Title: Deep Learning for Rapid Sparse MR Fingerprinting Reconstruction
+Authors: Ouri Cohen, Bo Zhu, Matthew S. Rosen
+Categories: cs.CV
+Comments: 21 pages, 7 figures
+\\ ( https://arxiv.org/abs/1710.05267 ,  719kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1711.06778
+replaced with revised version Thu, 8 Mar 2018 16:49:13 GMT   (3227kb,D)
+
+Title: Excitation Backprop for RNNs
+Authors: Sarah Adel Bargal, Andrea Zunino, Donghyun Kim, Jianming Zhang,
+  Vittorio Murino, Stan Sclaroff
+Categories: cs.CV
+Comments: CVPR 2018 Camera Ready Version
+Journal-ref: IEEE Conference on Computer Vision and Pattern Recognition (CVPR),
+  2018
+\\ ( https://arxiv.org/abs/1711.06778 ,  3227kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1711.07871
+replaced with revised version Thu, 8 Mar 2018 02:09:31 GMT   (2547kb,D)
+
+Title: Autoencoder Node Saliency: Selecting Relevant Latent Representations
+Authors: Ya Ju Fan
+Categories: cs.CV cs.LG stat.ML
+\\ ( https://arxiv.org/abs/1711.07871 ,  2547kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1712.01707
+replaced with revised version Thu, 8 Mar 2018 03:18:13 GMT   (5878kb,D)
+
+Title: IEOPF: An Active Contour Model for Image Segmentation with
+  Inhomogeneities Estimated by Orthogonal Primary Functions
+Authors: Chaolu Feng
+Categories: cs.CV
+Comments: 27 pages, 14 figures
+\\ ( https://arxiv.org/abs/1712.01707 ,  5878kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1802.06865
+replaced with revised version Thu, 8 Mar 2018 09:21:11 GMT   (9201kb,D)
+
+Title: Automated soft tissue lesion detection and segmentation in digital
+  mammography using a u-net deep learning network
+Authors: Timothy de Moor and Alejandro Rodriguez-Ruiz and Albert Gubern
+  M\'erida and Ritse Mann and Jonas Teuwen
+Categories: cs.CV
+Comments: To appear in IWBI 2018
+\\ ( https://arxiv.org/abs/1802.06865 ,  9201kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1802.08722
+replaced with revised version Wed, 7 Mar 2018 20:11:00 GMT   (7250kb,D)
+
+Title: A Weighted Sparse Sampling and Smoothing Frame Transition Approach for
+  Semantic Fast-Forward First-Person Videos
+Authors: Michel Melo Silva, Washington Luis Souza Ramos, Joao Klock Ferreira,
+  Felipe Cadar Chamone, Mario Fernando Montenegro Campos, Erickson Rangel
+  Nascimento
+Categories: cs.CV
+Comments: Accepted for publication in the IEEE Conference on Computer Vision
+  and Pattern Recognition (CVPR) 2018. Link to the project wesite:
+  https://www.verlab.dcc.ufmg.br/semantic-hyperlapse/
+\\ ( https://arxiv.org/abs/1802.08722 ,  7250kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02380
+replaced with revised version Thu, 8 Mar 2018 11:36:45 GMT   (5153kb,D)
+
+Title: Fast Cylinder and Plane Extraction from Depth Cameras for Visual
+  Odometry
+Authors: Pedro F. Proen\c{c}a and Yang Gao
+Categories: cs.CV cs.RO
+Comments: Changing Fig. 9 format due to issues with certain PDF readers
+\\ ( https://arxiv.org/abs/1803.02380 ,  5153kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02544
+replaced with revised version Thu, 8 Mar 2018 01:29:14 GMT   (1351kb,D)
+
+Title: Visual Explanations From Deep 3D Convolutional Neural Networks for
+  Alzheimer's Disease Classification
+Authors: Chengliang Yang, Anand Rangarajan, Sanjay Ranka
+Categories: cs.CV cs.AI cs.LG stat.ML
+Comments: 8 pages
+\\ ( https://arxiv.org/abs/1803.02544 ,  1351kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.02555
+replaced with revised version Thu, 8 Mar 2018 08:35:30 GMT   (1223kb,D)
+
+Title: Object cosegmentation using deep Siamese network
+Authors: Prerana Mukherjee, Brejesh Lall, Snehith Lattupally
+Categories: cs.CV
+Comments: Appears in International Conference on Pattern Recognition and
+  Artificial Intelligence (ICPRAI), 2018
+\\ ( https://arxiv.org/abs/1803.02555 ,  1223kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.00458
+replaced with revised version Thu, 8 Mar 2018 15:00:50 GMT   (774kb,D)
+
+Title: DNN-based with Click-sequence-aware Mechanism for Notifications/Pop-ups
+  Recommendation
+Authors: TonTon Hsien-De Huang, and Hung-Yu Kao
+Categories: cs.CY cs.HC cs.IR
+Comments: 2018/03/08 upload
+\\ ( https://arxiv.org/abs/1803.00458 ,  774kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1610.03564
+replaced with revised version Thu, 8 Mar 2018 01:33:13 GMT   (279kb,D)
+
+Title: Fast Core Pricing for Rich Advertising Auctions
+Authors: Jason Hartline, Nicole Immorlica, Mohammad Reza Khani, Brendan Lucier,
+  Rad Niazadeh
+Categories: cs.GT cs.DS
+\\ ( https://arxiv.org/abs/1610.03564 ,  279kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1706.01284
+replaced with revised version Thu, 8 Mar 2018 00:22:59 GMT   (1121kb,D)
+
+Title: Towards Synthesizing Complex Programs from Input-Output Examples
+Authors: Xinyun Chen, Chang Liu, Dawn Song
+Categories: cs.LG cs.AI cs.PL
+Comments: Published as a conference paper at ICLR 2018
+\\ ( https://arxiv.org/abs/1706.01284 ,  1121kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1707.00044
+replaced with revised version Thu, 8 Mar 2018 17:58:40 GMT   (223kb,D)
+
+Title: Penalizing Unfairness in Binary Classification
+Authors: Yahav Bechavod and Katrina Ligett
+Categories: cs.LG stat.ML
+\\ ( https://arxiv.org/abs/1707.00044 ,  223kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1708.05924
+replaced with revised version Thu, 8 Mar 2018 15:09:56 GMT   (3067kb,D)
+
+Title: A Deep Q-Network for the Beer Game: A Reinforcement Learning algorithm
+  to Solve Inventory Optimization Problems
+Authors: Afshin Oroojlooyjadid, MohammadReza Nazari, Lawrence Snyder, Martin
+  Tak\'a\v{c}
+Categories: cs.LG cs.MA
+\\ ( https://arxiv.org/abs/1708.05924 ,  3067kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1709.06922
+replaced with revised version Thu, 8 Mar 2018 14:17:01 GMT   (900kb,D)
+
+Title: Stock-out Prediction in Multi-echelon Networks
+Authors: Afshin Oroojlooyjadid, Lawrence Snyder, Martin Tak\'a\v{c}
+Categories: cs.LG
+\\ ( https://arxiv.org/abs/1709.06922 ,  900kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1710.09513
+replaced with revised version Thu, 8 Mar 2018 12:55:37 GMT   (592kb,D)
+
+Title: Maximum Principle Based Algorithms for Deep Learning
+Authors: Qianxiao Li, Long Chen, Cheng Tai, Weinan E
+Categories: cs.LG stat.ML
+Comments: revision on discussions; fixed figure issue for fashion MNIST; Some
+  proof details are simplified; Fixed an issue with appendix A for
+  non-autonomous systems
+MSC-class: 68T05, 49D, 49M
+\\ ( https://arxiv.org/abs/1710.09513 ,  592kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1802.07802
+replaced with revised version Wed, 7 Mar 2018 23:56:39 GMT   (826kb,D)
+
+Title: Protecting Sensory Data against Sensitive Inferences
+Authors: Mohammad Malekzadeh, Richard G. Clegg, Andrea Cavallaro and Hamed
+  Haddadi
+Categories: cs.LG
+Comments: 6 pages
+MSC-class: 68T05
+ACM-class: I.2.6
+\\ ( https://arxiv.org/abs/1802.07802 ,  826kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1802.09419
+replaced with revised version Thu, 8 Mar 2018 18:14:35 GMT   (478kb,D)
+
+Title: Stochastic Hyperparameter Optimization through Hypernetworks
+Authors: Jonathan Lorraine and David Duvenaud
+Categories: cs.LG
+Comments: 9 pages, 6 figures; revised figures
+\\ ( https://arxiv.org/abs/1802.09419 ,  478kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1712.03719 (*cross-listing*)
+replaced with revised version Thu, 8 Mar 2018 09:39:34 GMT   (2664kb,D)
+
+Title: A novel model-based heuristic for energy optimal motion planning for
+  automated driving
+Authors: Zlatan Ajanovic, Michael Stolz, Martin Horn
+Categories: math.OC cs.AI
+Comments: 6 pages, 6 figures, 1 table, accepted to IFAC CTS 2018, Savona, Italy
+MSC-class: 93C85, 70Q05, 68T40, 90C39, 90C35, 68R10
+\\ ( https://arxiv.org/abs/1712.03719 ,  2664kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1712.04798
+replaced with revised version Thu, 8 Mar 2018 14:57:09 GMT   (1440kb,D)
+
+Title: A Multimodal Corpus of Expert Gaze and Behavior during Phonetic
+  Segmentation Tasks
+Authors: Arif Khan, Ingmar Steiner, Yusuke Sugano, Andreas Bulling, Ross
+  Macdonald
+Categories: cs.HC cs.CL
+\\ ( https://arxiv.org/abs/1712.04798 ,  1440kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1711.04340 (*cross-listing*)
+replaced with revised version Thu, 8 Mar 2018 16:46:40 GMT   (8415kb,D)
+
+Title: Data Augmentation Generative Adversarial Networks
+Authors: Antreas Antoniou, Amos Storkey and Harrison Edwards
+Categories: stat.ML cs.CV cs.LG cs.NE
+Comments: 10 pages
+\\ ( https://arxiv.org/abs/1711.04340 ,  8415kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1703.06856 (*cross-listing*)
+replaced with revised version Thu, 8 Mar 2018 11:23:13 GMT   (2892kb,D)
+
+Title: Counterfactual Fairness
+Authors: Matt J. Kusner, Joshua R. Loftus, Chris Russell, Ricardo Silva
+Categories: stat.ML cs.CY cs.LG
+\\ ( https://arxiv.org/abs/1703.06856 ,  2892kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1801.09419 (*cross-listing*)
+replaced with revised version Thu, 8 Mar 2018 15:38:56 GMT   (256kb,D)
+
+Title: A notion of stability for k-means clustering
+Authors: Thibaut Le Gouic (1), Quentin Paris (2) ((1) I2M, (2) CS-HSE)
+Categories: math.ST cs.LG stat.TH
+\\ ( https://arxiv.org/abs/1801.09419 ,  256kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.01682 (*cross-listing*)
+replaced with revised version Wed, 7 Mar 2018 22:46:30 GMT   (478kb,D)
+
+Title: Optimizing Slate Recommendations via Slate-CVAE
+Authors: Ray Jiang, Sven Gowal, Timothy A. Mann, Danilo J. Rezende
+Categories: stat.ML cs.LG
+Comments: Preliminary work. Under review by the International Conference on
+  Machine Learning (ICML) 2018
+\\ ( https://arxiv.org/abs/1803.01682 ,  478kb)
+------------------------------------------------------------------------------
+\\
+arXiv:1803.01814 (*cross-listing*)
+replaced with revised version Thu, 8 Mar 2018 13:37:48 GMT   (665kb,D)
+
+Title: Norm matters: efficient and accurate normalization schemes in deep
+  networks
+Authors: Elad Hoffer, Ron Banner, Itay Golan, Daniel Soudry
+Categories: stat.ML cs.LG
+\\ ( https://arxiv.org/abs/1803.01814 ,  665kb)
+%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---%%%---
