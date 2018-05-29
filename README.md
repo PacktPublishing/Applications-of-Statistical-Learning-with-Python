@@ -9,23 +9,21 @@ You’ll learn to read text in documents using different models, and employ sent
 <H2>What You Will Learn</H2>
 <DIV class=book-info-will-learn-text>
 <UL>
-<LI>How to read, sort, and map various data into NumPy and Pandas 
-<LI>How to create and slice data arrays using NumPy 
-<LI>How to subset your data frames using Pandas 
-<LI>How to handle missing data in a Pandas DataFrame 
-<LI>How to interface your Python data analysis with R language packages </LI></UL></DIV>
+<LI>Look for specific signs and intents using natural language processing
+<LI>Find specific points and figures within images using computer vision
+<LI>Detect spam by analyzing data within emails 
+<LI>Detect emotion by reading patterns within images
+<LI>Employ different filters and transforms to analyze and manipulate data </LI></UL></DIV>
 
 ## Instructions and Navigation
 ### Assumed Knowledge
 To fully benefit from the coverage included in this course, you will need:<br/>
-To fully benefit from the coverage included in this course, you will need:
 	Prior working knowledge of the Python 3.6.x language
 	Working knowledge of Anaconda and Jupyter notebooks
 	Working knowledge of Pandas and NumPy
 
 ### Technical Requirements
 This course has the following software requirements:<br/>
-This course has the following software requirements:
 	A web browser
 	pandas
 	NumPy
