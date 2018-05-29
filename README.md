@@ -19,9 +19,9 @@ You’ll learn to read text in documents using different models, and employ sent
 ### Assumed Knowledge
 To fully benefit from the coverage included in this course, you will need:<br/>
 
-	Prior working knowledge of the Python 3.6.x language
-	Working knowledge of Anaconda and Jupyter notebooks
-	Working knowledge of Pandas and NumPy
+<LI>	Prior working knowledge of the Python 3.6.x language
+<LI>Working knowledge of Anaconda and Jupyter notebooks
+<LI>	Working knowledge of Pandas and NumPy </LI></UL>
 
 ### Technical Requirements
 This course has the following software requirements:<br/>
