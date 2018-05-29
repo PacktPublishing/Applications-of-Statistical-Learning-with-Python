@@ -26,31 +26,31 @@ To fully benefit from the coverage included in this course, you will need:<br/>
 ### Technical Requirements
 This course has the following software requirements:<br/>
 
-	A web browser
-	pandas
-	NumPy
-	matplotlib
-	Python
-	statsmodels
-	scikit-learn
-	scipy
-	tesseract
-	nltk
-	Anaconda
+<LI>A web browser
+<LI>	pandas
+<LI>NumPy
+<LI>matplotlib
+<LI>Python
+<LI>statsmodels
+<LI>scikit-learn
+<LI>scipy
+<LI>	tesseract
+<LI>nltk
+<LI>Anaconda</LI>
 This course has been tested on the following system configuration:
-	OS: Windows 10
-	Processor: Intel Core i7 @ 2.4 GHz, 64-bit
-	Memory: 16GB
-	Hard Disk Space: 1.5TB
-	Python 3.6.x
-	NumPy 1.13.3
-	pandas 0.21.0
-	matplotlib 2.0.2
-	nltk 3.2.2
-	scikit-learn 0.19.1
-	conda 4.3.30
-	opencv-contrib-python 3.4.0.12
-	tesseract 3.05
+<LI>OS: Windows 10
+<LI>Processor: Intel Core i7 @ 2.4 GHz, 64-bit
+<LI>Memory: 16GB
+<LI>	Hard Disk Space: 1.5TB
+<LI>Python 3.6.x
+<LI>NumPy 1.13.3
+<LI>pandas 0.21.0
+<LI>matplotlib 2.0.2
+<LI>nltk 3.2.2
+<LI>scikit-learn 0.19.1
+<LI>conda 4.3.30
+<LI>opencv-contrib-python 3.4.0.12
+<LI>tesseract 3.05</LI>
 
 
 ## Related Products
